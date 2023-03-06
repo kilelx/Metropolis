@@ -6,9 +6,11 @@
   "scripts": {
     "sass": "sass --watch scss:css"
   },
+  "type": "module",
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "gsap": "^3.11.4",
     "sass": "^1.58.3"
   }
 }

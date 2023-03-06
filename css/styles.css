@@ -57,6 +57,12 @@ nav ul {
 nav ul li i {
   font-size: 1.5rem;
 }
+nav ul li a {
+  transition: 0.3s;
+}
+nav ul li a:hover {
+  color: #CCAD81;
+}
 nav .logo {
   position: absolute;
   top: 0.75rem;
@@ -131,16 +137,6 @@ nav .logo {
   filter: grayscale(1);
 }
 
-@keyframes navbarFadeIn {
-  0% {
-    opacity: 0;
-    transform: translateY(-20%);
-  }
-  100% {
-    opacity: 1;
-    transform: translateY(0%);
-  }
-}
 @keyframes titleShowsUp {
   0% {
     transform: translateY(100%) rotate(10deg);

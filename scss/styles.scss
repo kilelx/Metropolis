@@ -38,8 +38,16 @@ nav {
     ul {
         display: flex;
         gap: .5rem;
-        li i {
-            font-size: 1.5rem;
+        li {
+            i {
+                font-size: 1.5rem;
+            }
+            a {
+                transition: .3s;
+                &:hover {
+                    color: #CCAD81;
+                }
+            }
         }
     }
     .logo {
@@ -115,16 +123,16 @@ nav {
 }
 
 // === ANIMATIONS ===
-@keyframes navbarFadeIn {
-    0% {
-        opacity: 0;
-        transform: translateY(-20%);
-    }
-    100% {
-        opacity: 1;
-        transform: translateY(0%);
-    }
-}
+// @keyframes navbarFadeIn {
+//     0% {
+//         opacity: 0;
+//         transform: translateY(-20%);
+//     }
+//     100% {
+//         opacity: 1;
+//         transform: translateY(0%);
+//     }
+// }
 
 @keyframes titleShowsUp {
     0% {
