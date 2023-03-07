@@ -94,17 +94,11 @@ nav .logo {
   margin-top: 2rem;
   overflow: hidden;
 }
-.hero h1 span {
-  animation: titleShowsUp 0.5s cubic-bezier(0.46, 0, 0.13, 1.05) 0.4s forwards;
-}
 .hero h2 {
   color: transparent;
   -webkit-text-stroke: 3px #EFEFEF;
   margin-bottom: 2rem;
   overflow: hidden;
-}
-.hero h2 span {
-  animation: titleShowsUp 0.5s cubic-bezier(0.46, 0, 0.13, 1.05) 0.6s forwards;
 }
 .hero .gallery {
   display: grid;
@@ -115,22 +109,12 @@ nav .logo {
 .hero .gallery .img-container {
   position: relative;
 }
-.hero .gallery .img-container:nth-child(1) img {
-  animation-delay: 0.7s;
-}
-.hero .gallery .img-container:nth-child(2) img {
-  animation-delay: 0.9s;
-}
-.hero .gallery .img-container:nth-child(3) img {
-  animation-delay: 1.1s;
-}
 .hero .gallery .img-container img {
   width: 100%;
   height: 100%;
   object-fit: cover;
   clip-path: polygon(0 100%, 100% 100%, 100% 100%, 0 100%);
   transition: filter 0.3s ease-in-out, transform 0.3s ease-in-out;
-  animation: showingImage 0.6s cubic-bezier(0.4, 0, 0.2, 1) forwards;
 }
 .hero .gallery .img-container img:hover {
   transform: scale(0.99);

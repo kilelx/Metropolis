@@ -1,4 +1,10 @@
-import {gsap}  from 'gsap'
+import gsap  from 'gsap'
+
+const tl = gsap.timeline({
+    defaults: {
+        duration: .5,
+    }
+})
 
 gsap.from('nav li', {
     duration: .5,
