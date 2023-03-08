@@ -6,7 +6,6 @@
   "scripts": {
     "sass": "sass --watch scss:css"
   },
-  "type": "module",
   "author": "",
   "license": "ISC",
   "dependencies": {
